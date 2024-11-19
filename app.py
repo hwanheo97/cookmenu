@@ -47,6 +47,13 @@ cook_type ={
 
 }
 
+import os
+
+
+current_dir = os.getcwd()
+st.write(f"Current working directory: {current_dir}")
+
+
 bensmenus =[
     {
     "name": "김치 볶음밥",
